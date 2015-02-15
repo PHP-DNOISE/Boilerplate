@@ -1,0 +1,23 @@
+{
+    "name": "phpdnoise/boilerplate",
+    "type": "library",
+    "description": "Boilerplate component structure composer phpunit",
+    "authors":[
+        {
+            "name": "Rafael Calleja",
+            "email": "rafaelcalleja@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": { "My\\Namespace\\": "src/" }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
